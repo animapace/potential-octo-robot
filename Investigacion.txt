@@ -1,0 +1,47 @@
+Investigación sobre Herencia en C#
+
+Introducción
+
+La herencia es un pilar fundamental de la programación orientada a objetos (POO). Permite que una clase derive de otra, reutilizando código y estableciendo relaciones jerárquicas. En C#, la herencia se implementa mediante clases base y clases derivadas.
+
+Tipos de Herencia en C#
+
+1. Herencia Simple
+
+Una clase hereda de otra, estableciendo una relación de padre a hijo.
+
+2. Herencia Multinivel
+
+Una clase hereda de otra, que a su vez hereda de una tercera, creando una cadena de herencia.
+
+3. Herencia con Clases Abstractas
+
+Define clases que no pueden ser instanciadas directamente, pero sirven como base para otras clases.
+
+4. Herencia con Interfaces (Simulación de Herencia Múltiple)
+
+En C# no existe herencia múltiple con clases, pero se puede simular con interfaces, permitiendo que una clase implemente múltiples interfaces.
+
+5. Uso de sealed para Prevenir Herencia
+
+Evita que una clase sea heredada, restringiendo su extensibilidad.
+
+Ventajas y Desventajas de la Herencia
+
+Ventajas:
+
+Reutilización de código.
+
+Facilita el mantenimiento.
+
+Favorece la extensibilidad del sistema.
+
+Desventajas:
+
+Puede aumentar la complejidad.
+
+Puede generar dependencias innecesarias.
+
+En algunos casos, una mala implementación puede llevar al acoplamiento excesivo.
+
+
